@@ -9,10 +9,10 @@
         }
       }
     ],
-    "routes": [
-        {
+    
+        
             "rewrites": [{ "source": "/(.*)", "destination": "/src/index.html" }]
-        }
-    ]
+        
+    
   }
   
