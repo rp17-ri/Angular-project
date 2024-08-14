@@ -1,0 +1,38 @@
+.home-container {
+  text-align: left;
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  margin: 3rem auto;
+  border: 1px solid #e0e0e0;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container h1 {
+  color: #1a1a1a;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.home-container p {
+  color: #333333;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.home-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.home-container img:hover {
+  transform: scale(1.05);
+}

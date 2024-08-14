@@ -1,0 +1,52 @@
+.api-data-container {
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  margin: 3rem auto;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #e0e0e0;
+}
+
+.api-data-container h2 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.api-data-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.api-data-container .post-item {
+  background-color: #f7f9fc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.api-data-container .post-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.api-data-container .post-item h3 {
+  color: #1abc9c;
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.api-data-container .post-item p {
+  color: #34495e;
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 1.5;
+}
